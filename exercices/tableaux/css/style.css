@@ -1,0 +1,58 @@
+.premier td, .premier th {
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+.deuxieme td, .deuxieme th{
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+
+
+.troisieme td:nth-child(6),
+.troisieme tfoot td:nth-child(4),
+.troisieme td:nth-child(5),
+.troisieme td:nth-child(4),
+.troisieme td:nth-child(3){
+    text-align: right;
+
+}
+
+.troisieme td:nth-child(2){
+    text-align: center;
+}
+
+.troisieme tfoot tr:first-child{
+    text-align: right;
+}
+
+
+.troisieme tbody tr:nth-child(13) td {
+    border-bottom: #999 1.5px solid;
+}
+
+.troisieme td, .troisieme th{
+    
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+.troisieme{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+}
+
+.troisieme thead tr:first-child th{
+    padding: 2em;
+    font-size: 2rem;
+}
+
+.troisieme thead tr:nth-child(2) th{
+    border-bottom: 1.5px solid #999;
+}
+.troisieme tbody tr:nth-child(odd){
+    background-color: #eee;
+}

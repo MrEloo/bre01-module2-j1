@@ -1,0 +1,72 @@
+
+/**************************************************************
+GENERALITES
+***************************************************************/
+
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+    color: #555;
+}
+
+
+h1{
+    color: #DD5735;
+    font-size: 2.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.exemple-h2{
+    color: #333;
+    font-size: 2rem;
+}
+
+.exemple-h3{
+    font-size: 1.5rem;
+}
+
+
+
+/**************************************************************
+LAYOUT
+***************************************************************/
+
+header{
+    background-color: #ddd;
+    border: 1px solid #DD5735;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+footer{
+    background-color: #ddd;
+    border: 1px solid black;
+    text-align: center;
+}
+
+footer img{
+    width: 5%;
+}
+
+
+/**************************************************************
+SPECIFIC CLASS
+***************************************************************/
+
+.parent{
+    border: 1px dashed red;
+}
+
+span{
+    color: red;
+}
+
+
+div > p{
+    margin: 0;
+}

@@ -1,0 +1,116 @@
+
+/**************************************************************
+GENERALITES
+***************************************************************/
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+h1{
+    color: #DD5735;
+    font-size: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.exemple-h2{
+    color: #333;
+    font-size: 3.2rem;
+}
+
+.exemple-h3{
+    font-size: 2.4rem;
+}
+
+article{
+    background-color: white;
+    padding: 0.5em ;
+}
+
+
+
+/**************************************************************
+LAYOUT
+***************************************************************/
+
+header{
+    background-color: #444;
+    text-align: center;
+    padding: 0.5rem;
+}
+header p{
+    padding: 0.5rem;
+}
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    color: black;
+}
+
+
+footer{
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+footer img{
+    width: 5%;
+}
+
+
+/**************************************************************
+SPECIFIC CLASS
+***************************************************************/
+
+.parent{
+    border: 1px dashed red;
+}
+
+span{
+    color: red;
+}
+
+
+div > p{
+    margin: 0;
+}
+
+.card{
+    background-color:white;
+    padding: 2em;
+}
+
+
+
+cards > div{
+    margin: 0.3em;
+}
+
+.gutter{
+
+    padding: 1em;
+}
+
+.code{
+    background-color: #ddd ;
+    padding: 0.5em;
+}
